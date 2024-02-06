@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://t220vr50crmm"
+path="res://.godot/imported/blockSnowHalf.obj-d7862801e57298063ff11daa6c08c98f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockSnowHalf.obj-d7862801e57298063ff11daa6c08c98f.mesh"]
+
+source_file="res://MOdels/blockSnowHalf.obj"
+dest_files=["res://.godot/imported/blockSnowHalf.obj-d7862801e57298063ff11daa6c08c98f.mesh", "res://.godot/imported/blockSnowHalf.obj-d7862801e57298063ff11daa6c08c98f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

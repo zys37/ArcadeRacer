@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0y5s7xwj2ger"
+path="res://.godot/imported/blockDirtRamp.obj-f139feae6719b593938b43c29c2974bf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockDirtRamp.obj-f139feae6719b593938b43c29c2974bf.mesh"]
+
+source_file="res://MOdels/blockDirtRamp.obj"
+dest_files=["res://.godot/imported/blockDirtRamp.obj-f139feae6719b593938b43c29c2974bf.mesh", "res://.godot/imported/blockDirtRamp.obj-f139feae6719b593938b43c29c2974bf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

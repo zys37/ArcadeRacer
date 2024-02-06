@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://b6fqmfex41ioy"]
 
-[ext_resource type="PackedScene" uid="uid://beykuvdpu0eu1" path="res://auto.tscn" id="1_lvxn1"]
+[ext_resource type="PackedScene" uid="uid://beykuvdpu0eu1" path="res://MOdels/auto.tscn" id="1_lvxn1"]
 [ext_resource type="Script" path="res://swiat.gd" id="1_uxnrh"]
 [ext_resource type="MeshLibrary" uid="uid://cougl1de83we5" path="res://meshgrid.tres" id="2_8t650"]
 [ext_resource type="AudioStream" uid="uid://bfun7h66vliou" path="res://muza/engine-loop-1-normalized.wav" id="3_8blt6"]

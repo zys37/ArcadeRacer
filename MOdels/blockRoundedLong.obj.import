@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cyilowgdapypq"
+path="res://.godot/imported/blockRoundedLong.obj-8aabdac39d17c1610a9e32932103c5cc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockRoundedLong.obj-8aabdac39d17c1610a9e32932103c5cc.mesh"]
+
+source_file="res://MOdels/blockRoundedLong.obj"
+dest_files=["res://.godot/imported/blockRoundedLong.obj-8aabdac39d17c1610a9e32932103c5cc.mesh", "res://.godot/imported/blockRoundedLong.obj-8aabdac39d17c1610a9e32932103c5cc.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -20,3 +20,4 @@ func hit_reaction():
 	var hit_direction = - global_transform.basis.z
 	var hit_impulse = hit_direction * 10
 
+#this is a test

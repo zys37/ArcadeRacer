@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cwbn7btbgkw3e"
+path="res://.godot/imported/blockDirtHalf.obj-3e382ad1dded7af233d7fc8b6ccf178a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockDirtHalf.obj-3e382ad1dded7af233d7fc8b6ccf178a.mesh"]
+
+source_file="res://MOdels/blockDirtHalf.obj"
+dest_files=["res://.godot/imported/blockDirtHalf.obj-3e382ad1dded7af233d7fc8b6ccf178a.mesh", "res://.godot/imported/blockDirtHalf.obj-3e382ad1dded7af233d7fc8b6ccf178a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
