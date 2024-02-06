@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bplo0xtuxs4w5"]
+
+[ext_resource type="AudioStream" uid="uid://bmqwt6sbbu26v" path="res://muza/Bye2023.mp3" id="1_yq6t2"]
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D"]
+stream = ExtResource("1_yq6t2")
+volume_db = -5.766
+autoplay = true

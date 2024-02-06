@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://beug8vxfsfkt2"]
+
+[ext_resource type="ArrayMesh" uid="uid://ws1nhladaxrx" path="res://MOdels/road_straight.obj" id="1_76abs"]
+[ext_resource type="ArrayMesh" uid="uid://bjiy8n17bc48r" path="res://MOdels/road_curve.obj" id="2_vpk1w"]
+
+[node name="Node3D" type="StaticBody3D"]
+
+[node name="RoadStraight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.64115, 0, 4.31621)
+mesh = ExtResource("1_76abs")
+
+[node name="RoadCurve" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.74343, 0, 2.43758)
+mesh = ExtResource("2_vpk1w")

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdajmkxrirebo"
+path="res://.godot/imported/masochut z kolami-2.obj-7eee9023a10cb13572c03f42d13803fb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/masochut z kolami-2.obj-7eee9023a10cb13572c03f42d13803fb.mesh"]
+
+source_file="res://MOdels/masochut z kolami-2.obj"
+dest_files=["res://.godot/imported/masochut z kolami-2.obj-7eee9023a10cb13572c03f42d13803fb.mesh", "res://.godot/imported/masochut z kolami-2.obj-7eee9023a10cb13572c03f42d13803fb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

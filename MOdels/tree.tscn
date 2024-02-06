@@ -1,0 +1,1002 @@
+[gd_scene load_steps=181 format=3 uid="uid://ct26gugtng3fv"]
+
+[ext_resource type="ArrayMesh" uid="uid://ciw52x2wwvojy" path="res://MOdels/untitled.obj" id="1_1jg01"]
+[ext_resource type="ArrayMesh" uid="uid://8clcs5jo4rra" path="res://MOdels/ziemia-0-ziemia.obj" id="2_utb3q"]
+[ext_resource type="ArrayMesh" uid="uid://cal3rib7dmqul" path="res://MOdels/ziemia.obj" id="3_n30pk"]
+[ext_resource type="ArrayMesh" uid="uid://c7n2j1n7cmp03" path="res://MOdels/asfalt.obj" id="4_xatvg"]
+[ext_resource type="ArrayMesh" uid="uid://bijec7puheyxl" path="res://MOdels/obok drogi.obj" id="5_p16ri"]
+[ext_resource type="ArrayMesh" uid="uid://0f6gsgcp7iqm" path="res://treePine.obj" id="6_ekkju"]
+[ext_resource type="ArrayMesh" uid="uid://dfap5wxurjvt5" path="res://treePineSmall.obj" id="7_ufl47"]
+[ext_resource type="ArrayMesh" uid="uid://bhywui2a7dl6n" path="res://treePineSmallSnow.obj" id="8_0uf87"]
+[ext_resource type="ArrayMesh" uid="uid://tpkrbv3x0i2l" path="res://treePineSnow.obj" id="9_yobdc"]
+[ext_resource type="ArrayMesh" uid="uid://doqol0k5gxrnw" path="res://treeSnow.obj" id="10_5f44f"]
+[ext_resource type="ArrayMesh" uid="uid://cbfo8dt4cdy5w" path="res://spikeBlock.obj" id="11_ushcb"]
+[ext_resource type="ArrayMesh" uid="uid://dcia1sfb28anm" path="res://spikeBlockWide.obj" id="12_cbv7x"]
+[ext_resource type="ArrayMesh" uid="uid://nrnmnaknnhtd" path="res://spikes.obj" id="13_w48rd"]
+[ext_resource type="ArrayMesh" uid="uid://bd7y526mk6l77" path="res://spikesHidden.obj" id="14_fl41i"]
+[ext_resource type="ArrayMesh" uid="uid://cfgr1cpjfc8ao" path="res://spikesLarge.obj" id="15_8fg36"]
+[ext_resource type="ArrayMesh" uid="uid://cln36ry3qe2wu" path="res://stones.obj" id="16_2vape"]
+[ext_resource type="ArrayMesh" uid="uid://dv7lmtywi7t5o" path="res://plant.obj" id="17_jhfi6"]
+[ext_resource type="ArrayMesh" uid="uid://j7kfoaaullvx" path="res://platform.obj" id="18_4pg8p"]
+[ext_resource type="ArrayMesh" uid="uid://cton4ooxlqwxq" path="res://poles.obj" id="19_y13cp"]
+[ext_resource type="ArrayMesh" uid="uid://clupt0n4857g3" path="res://rocks.obj" id="20_yg6yg"]
+[ext_resource type="ArrayMesh" uid="uid://c0e1c1cfcn53a" path="res://saw.obj" id="21_s2p0u"]
+[ext_resource type="ArrayMesh" uid="uid://dvkys1junsfqq" path="res://sign.obj" id="22_fxnhe"]
+[ext_resource type="ArrayMesh" uid="uid://buw1vpn241ige" path="res://jewel.obj" id="23_a4dp3"]
+[ext_resource type="ArrayMesh" uid="uid://ce0cxfyne5s60" path="res://key.obj" id="24_4povr"]
+[ext_resource type="ArrayMesh" uid="uid://chmygw1pfl6jh" path="res://ladder.obj" id="25_rlw1o"]
+[ext_resource type="ArrayMesh" uid="uid://birtg8w1sutti" path="res://ladderBroken.obj" id="26_7pi61"]
+[ext_resource type="ArrayMesh" uid="uid://cs64d3k17aebq" path="res://ladderLong.obj" id="27_2sify"]
+[ext_resource type="ArrayMesh" uid="uid://cwp5bne1jc3pg" path="res://lever.obj" id="28_3fydo"]
+[ext_resource type="ArrayMesh" uid="uid://m18sfm6mlmhm" path="res://lock.obj" id="29_e5big"]
+[ext_resource type="ArrayMesh" uid="uid://dptpnqpwqjk3b" path="res://chest.obj" id="30_aw3cg"]
+[ext_resource type="ArrayMesh" uid="uid://cfxujdhpoj5vq" path="res://coinBronze.obj" id="31_4skx5"]
+[ext_resource type="ArrayMesh" uid="uid://5yblrn6srp7p" path="res://coinGold.obj" id="32_gwojk"]
+[ext_resource type="ArrayMesh" uid="uid://dnel4ipqdbf2j" path="res://coinSilver.obj" id="33_imwkt"]
+[ext_resource type="ArrayMesh" uid="uid://c7yefh1fbgde6" path="res://crate.obj" id="34_3l5yt"]
+[ext_resource type="ArrayMesh" uid="uid://5lmn1mo0xo13" path="res://crateItem.obj" id="35_maasp"]
+[ext_resource type="ArrayMesh" uid="uid://03llbi8wiiol" path="res://crateItemStrong.obj" id="36_nqgx7"]
+[ext_resource type="ArrayMesh" uid="uid://ccv43nxlrcca6" path="res://crateStrong.obj" id="37_3en28"]
+[ext_resource type="ArrayMesh" uid="uid://bbwmli6ed0gus" path="res://doorClosed.obj" id="38_lfg3v"]
+[ext_resource type="ArrayMesh" uid="uid://da5330u0ewhaq" path="res://doorLargeClosed.obj" id="39_g3jsc"]
+[ext_resource type="ArrayMesh" uid="uid://dati8n61psion" path="res://doorLargeOpen.obj" id="40_dns1q"]
+[ext_resource type="ArrayMesh" uid="uid://bdbscp0jgelh8" path="res://doorOpen.obj" id="41_t164o"]
+[ext_resource type="ArrayMesh" uid="uid://c83paexlxfajw" path="res://fence.obj" id="42_j8d2b"]
+[ext_resource type="ArrayMesh" uid="uid://dlbiynpjk6jv3" path="res://fenceBroken.obj" id="43_ifkso"]
+[ext_resource type="ArrayMesh" uid="uid://dl8rks66oa0h0" path="res://fenceCorner.obj" id="44_jnjrr"]
+[ext_resource type="ArrayMesh" uid="uid://d21xbh3wjip3" path="res://fenceCornerCurved.obj" id="45_dlcg8"]
+[ext_resource type="ArrayMesh" uid="uid://cdqp2pogatrc2" path="res://fenceLow.obj" id="46_wnqmu"]
+[ext_resource type="ArrayMesh" uid="uid://coqsollyca2v3" path="res://fenceLowBroken.obj" id="47_4hrpb"]
+[ext_resource type="ArrayMesh" uid="uid://f44cvaqpjp7v" path="res://fenceLowCorner.obj" id="48_lv8k5"]
+[ext_resource type="ArrayMesh" uid="uid://fmysrgx2evlc" path="res://fenceLowCornerCurved.obj" id="49_ccpqt"]
+[ext_resource type="ArrayMesh" uid="uid://dhdb8sp7f6jt5" path="res://flag.obj" id="50_o46we"]
+[ext_resource type="ArrayMesh" uid="uid://bj4cj1tmuifvd" path="res://flowers.obj" id="51_tovbt"]
+[ext_resource type="ArrayMesh" uid="uid://bnlhxhs57gkwc" path="res://flowersLow.obj" id="52_dm3yt"]
+[ext_resource type="ArrayMesh" uid="uid://tfv6f3ogtgrd" path="res://heart.obj" id="53_l6tbp"]
+[ext_resource type="ArrayMesh" uid="uid://7hsjkwgxj36b" path="res://hedge.obj" id="54_opge8"]
+[ext_resource type="ArrayMesh" uid="uid://587wolgxi4ui" path="res://hedgeCorner.obj" id="55_vlsbs"]
+[ext_resource type="ArrayMesh" uid="uid://d1aouqkbcagf" path="res://barrel.obj" id="56_347gs"]
+[ext_resource type="ArrayMesh" uid="uid://bcan3bkxfmwme" path="res://block.obj" id="57_mfak4"]
+[ext_resource type="ArrayMesh" uid="uid://cpkv2ui4r8kvq" path="res://blockCliff.obj" id="58_ehpc4"]
+[ext_resource type="ArrayMesh" uid="uid://c3mwm725pmkrf" path="res://blockCliffCorner.obj" id="59_bea3u"]
+[ext_resource type="ArrayMesh" uid="uid://3iy3hgnlsevi" path="res://blockCornerLarge.obj" id="60_0co11"]
+[ext_resource type="ArrayMesh" uid="uid://b7iomwdiljexp" path="res://blockCornerSmall.obj" id="61_je6gb"]
+[ext_resource type="ArrayMesh" uid="uid://bh2olgx7624pp" path="res://blockCurve.obj" id="62_0pur5"]
+[ext_resource type="ArrayMesh" uid="uid://djtiyxeiyh3ju" path="res://blockCurveHalf.obj" id="63_bu8se"]
+[ext_resource type="ArrayMesh" uid="uid://cya2bv62hxrd1" path="res://blockCurveLow.obj" id="64_ieohd"]
+[ext_resource type="ArrayMesh" uid="uid://dtc50ewonabo7" path="res://blockDirt.obj" id="65_ss20a"]
+[ext_resource type="ArrayMesh" uid="uid://cwbn7btbgkw3e" path="res://blockDirtHalf.obj" id="66_8h1fx"]
+[ext_resource type="ArrayMesh" uid="uid://c0y5s7xwj2ger" path="res://blockDirtRamp.obj" id="67_gyext"]
+[ext_resource type="ArrayMesh" uid="uid://l5mqobahg4p" path="res://blockDirtRampHalf.obj" id="68_xrhoa"]
+[ext_resource type="ArrayMesh" uid="uid://cynfakthkef5v" path="res://blockEnd.obj" id="69_y3ph5"]
+[ext_resource type="ArrayMesh" uid="uid://bv76po1wo4e2d" path="res://blockHalf.obj" id="70_o6k3g"]
+[ext_resource type="ArrayMesh" uid="uid://3agginiiykon" path="res://blockHexagon.obj" id="71_yl34u"]
+[ext_resource type="ArrayMesh" uid="uid://x0ufxnj7qtxs" path="res://blockHexagonLow.obj" id="72_eqctn"]
+[ext_resource type="ArrayMesh" uid="uid://d1mpu82riq2io" path="res://blockLarge.obj" id="73_kiwe3"]
+[ext_resource type="ArrayMesh" uid="uid://bt4nx1e6gcs5t" path="res://blockLevel.obj" id="74_h5srh"]
+[ext_resource type="ArrayMesh" uid="uid://cwajwjc1tew20" path="res://blockLong.obj" id="75_gfn7s"]
+[ext_resource type="ArrayMesh" uid="uid://cb8i0nhqh7y3w" path="res://blockMoving.obj" id="76_y4yk2"]
+[ext_resource type="ArrayMesh" uid="uid://bf8rhqt6pc48w" path="res://blockMovingBlue.obj" id="77_066ku"]
+[ext_resource type="ArrayMesh" uid="uid://kcdfe78uhihc" path="res://blockMovingLarge.obj" id="78_bbrrp"]
+[ext_resource type="ArrayMesh" uid="uid://bkx8hdf3do1dw" path="res://blockQuarter.obj" id="79_oley0"]
+[ext_resource type="ArrayMesh" uid="uid://cc5a6o3s43agj" path="res://blockRounded.obj" id="80_neagu"]
+[ext_resource type="ArrayMesh" uid="uid://bm4lwio2yok3f" path="res://blockRoundedLarge.obj" id="81_vnccb"]
+[ext_resource type="ArrayMesh" uid="uid://cyilowgdapypq" path="res://blockRoundedLong.obj" id="82_lt4q2"]
+[ext_resource type="ArrayMesh" uid="uid://csnffjl0bgt5" path="res://blockRoundedLow.obj" id="83_4ng8b"]
+[ext_resource type="ArrayMesh" uid="uid://deldd8jrhgt5s" path="res://blockRoundedLowLong.obj" id="84_r82na"]
+[ext_resource type="ArrayMesh" uid="uid://veluwolb6fvo" path="res://blockSlope.obj" id="85_hxeyh"]
+[ext_resource type="ArrayMesh" uid="uid://cc00r2qtq1lkb" path="res://blockSlopeHalf.obj" id="86_8hxeg"]
+[ext_resource type="ArrayMesh" uid="uid://l0ua4d4v87ic" path="res://blockSnow.obj" id="87_qqix5"]
+[ext_resource type="ArrayMesh" uid="uid://vdqvx0tyg6c0" path="res://blockSnowCliff.obj" id="88_fqa3q"]
+[ext_resource type="ArrayMesh" uid="uid://baqrt8upu6pnp" path="res://blockSnowCliffCorner.obj" id="89_oe1d7"]
+[ext_resource type="ArrayMesh" uid="uid://x6r814wjqwb7" path="res://blockSnowCornerLarge.obj" id="90_6n7kv"]
+[ext_resource type="ArrayMesh" uid="uid://cwj7r512jb5by" path="res://blockSnowCornerSmall.obj" id="91_57x0w"]
+[ext_resource type="ArrayMesh" uid="uid://bglrovgisbnng" path="res://blockSnowCurve.obj" id="92_tkwis"]
+[ext_resource type="ArrayMesh" uid="uid://dahb83kyrbnof" path="res://blockSnowCurveHalf.obj" id="93_tyf2a"]
+[ext_resource type="ArrayMesh" uid="uid://cur84revrt384" path="res://blockSnowCurveLow.obj" id="94_yhtvd"]
+[ext_resource type="ArrayMesh" uid="uid://dpvwk6b8tken5" path="res://blockSnowEnd.obj" id="95_elssn"]
+[ext_resource type="ArrayMesh" uid="uid://t220vr50crmm" path="res://blockSnowHalf.obj" id="96_vnng8"]
+[ext_resource type="ArrayMesh" uid="uid://8tkt23u02nl2" path="res://blockSnowHexagon.obj" id="97_yxr31"]
+[ext_resource type="ArrayMesh" uid="uid://cxj3t74xcffp3" path="res://blockSnowHexagonLow.obj" id="98_b8ubt"]
+[ext_resource type="ArrayMesh" uid="uid://bj3r2bcj2uw3m" path="res://blockSnowLarge.obj" id="99_aycg7"]
+[ext_resource type="ArrayMesh" uid="uid://c6mw3wqs3y6dl" path="res://blockSnowLevel.obj" id="100_yqtkw"]
+[ext_resource type="ArrayMesh" uid="uid://blp0tmi2ix41m" path="res://blockSnowLong.obj" id="101_fmjh6"]
+[ext_resource type="ArrayMesh" uid="uid://ie7io8hghbsc" path="res://blockSnowQuarter.obj" id="102_ifsym"]
+[ext_resource type="ArrayMesh" uid="uid://bibniqtdkk6q0" path="res://blockSnowRounded.obj" id="103_kghix"]
+[ext_resource type="ArrayMesh" uid="uid://bym75188qli7e" path="res://blockSnowRoundedLarge.obj" id="104_pm05g"]
+[ext_resource type="ArrayMesh" uid="uid://cetyd57xpcvw1" path="res://blockSnowRoundedLong.obj" id="105_kexgk"]
+[ext_resource type="ArrayMesh" uid="uid://h01kvajdarej" path="res://blockSnowRoundedLow.obj" id="106_t826y"]
+[ext_resource type="ArrayMesh" uid="uid://dmf8edi371ifx" path="res://blockSnowRoundedLowLong.obj" id="107_vtw56"]
+[ext_resource type="ArrayMesh" uid="uid://blnbhwajqq5ca" path="res://blockSnowSlope.obj" id="108_t4ptw"]
+[ext_resource type="ArrayMesh" uid="uid://cn41bqv73smo6" path="res://blockSnowSlopeHalf.obj" id="109_ad772"]
+[ext_resource type="ArrayMesh" uid="uid://bvss85l2vpum3" path="res://bomb.obj" id="110_8hv5s"]
+[ext_resource type="ArrayMesh" uid="uid://ch2bjhepf7le7" path="res://bridge.obj" id="111_j7bfy"]
+[ext_resource type="ArrayMesh" uid="uid://d377owrvs3pfw" path="res://bridgeHalf.obj" id="112_jxi7e"]
+[ext_resource type="ArrayMesh" uid="uid://dcrj76pulrkgm" path="res://bridgeRamp.obj" id="113_1qwq8"]
+[ext_resource type="ArrayMesh" uid="uid://dmybptl6pa1a3" path="res://buttonRound.obj" id="114_cghf2"]
+[ext_resource type="ArrayMesh" uid="uid://c61mhb1isicgp" path="res://buttonSquare.obj" id="115_fjik4"]
+[ext_resource type="ArrayMesh" uid="uid://ct2t117mayohp" path="res://arrow.obj" id="116_smxm7"]
+[ext_resource type="ArrayMesh" uid="uid://cfojoisctb0ka" path="res://arrows.obj" id="117_an7f5"]
+[ext_resource type="ArrayMesh" uid="uid://cju3ow8b0pvyg" path="res://MOdels/bridge_pillar.obj" id="118_3tqjh"]
+[ext_resource type="ArrayMesh" uid="uid://bh6kgij875lmu" path="res://MOdels/road_bendBarrier.obj" id="119_subvq"]
+[ext_resource type="ArrayMesh" uid="uid://cgrdqp0lwrqt5" path="res://MOdels/road_bendSidewalk.obj" id="120_hw5lp"]
+[ext_resource type="ArrayMesh" uid="uid://clbvd5woaohb0" path="res://MOdels/road_bendSquare.obj" id="121_amc0r"]
+[ext_resource type="ArrayMesh" uid="uid://dljjxi7pxf1d" path="res://MOdels/road_bendSquareBarrier.obj" id="122_nvwi5"]
+[ext_resource type="ArrayMesh" uid="uid://ln0y7720ttew" path="res://MOdels/road_bridge.obj" id="123_mtxah"]
+[ext_resource type="ArrayMesh" uid="uid://bxfur05nl1da2" path="res://MOdels/road_crossing.obj" id="124_m8ire"]
+[ext_resource type="ArrayMesh" uid="uid://cvkvj35yhwq8f" path="res://MOdels/road_crossroad.obj" id="125_4kcjn"]
+[ext_resource type="ArrayMesh" uid="uid://cec82qcaqnnxp" path="res://MOdels/road_crossroadBarrier.obj" id="126_ngx8v"]
+[ext_resource type="ArrayMesh" uid="uid://d1pjw3tjyvviq" path="res://MOdels/road_crossroadLine.obj" id="127_ngosq"]
+[ext_resource type="ArrayMesh" uid="uid://cidmeeim7djuw" path="res://MOdels/road_crossroadPath.obj" id="128_rlpav"]
+[ext_resource type="ArrayMesh" uid="uid://bjiy8n17bc48r" path="res://MOdels/road_curve.obj" id="129_hximc"]
+[ext_resource type="ArrayMesh" uid="uid://clww5mi4b7bxv" path="res://MOdels/road_curveBarrier.obj" id="130_4a3nb"]
+[ext_resource type="ArrayMesh" uid="uid://b11j57rc6a41l" path="res://MOdels/road_curveIntersection.obj" id="131_2atsy"]
+[ext_resource type="ArrayMesh" uid="uid://dhu2nrvwyj67c" path="res://MOdels/road_curveIntersectionBarrier.obj" id="132_x8xg0"]
+[ext_resource type="ArrayMesh" uid="uid://dg0kfjskqjb5x" path="res://MOdels/road_curvePavement.obj" id="133_f54py"]
+[ext_resource type="ArrayMesh" uid="uid://daaog2mgwnse4" path="res://MOdels/road_drivewayDouble.obj" id="134_xtr6t"]
+[ext_resource type="ArrayMesh" uid="uid://cyq1aoyvy3ya6" path="res://MOdels/road_drivewayDoubleBarrier.obj" id="135_768yn"]
+[ext_resource type="ArrayMesh" uid="uid://cqhkltib8ep7g" path="res://MOdels/road_drivewaySingle.obj" id="136_m7yn3"]
+[ext_resource type="ArrayMesh" uid="uid://bp77vfik5mwt4" path="res://MOdels/road_drivewaySingleBarrier.obj" id="137_hy4v8"]
+[ext_resource type="ArrayMesh" uid="uid://dpb4tkjkp38ry" path="res://MOdels/road_endBarrier.obj" id="138_qhhu1"]
+[ext_resource type="ArrayMesh" uid="uid://cm1u3ujp8hndr" path="res://MOdels/road_end.obj" id="139_vda57"]
+[ext_resource type="ArrayMesh" uid="uid://ce0shkgdkvxnl" path="res://MOdels/road_endRoundBarrier.obj" id="140_vssvg"]
+[ext_resource type="ArrayMesh" uid="uid://865wcpubhgg6" path="res://MOdels/road_intersection.obj" id="141_g8ow0"]
+[ext_resource type="ArrayMesh" uid="uid://08kf05b2gqns" path="res://MOdels/road_intersectionLine.obj" id="142_3up50"]
+[ext_resource type="ArrayMesh" uid="uid://dxxsg8vb53c0g" path="res://MOdels/road_intersectionBarrier.obj" id="143_an1df"]
+[ext_resource type="ArrayMesh" uid="uid://dqlpg288nw6ig" path="res://MOdels/road_intersectionPath.obj" id="144_ns2cw"]
+[ext_resource type="ArrayMesh" uid="uid://c2yi783ykb3tl" path="res://MOdels/road_roundabout.obj" id="145_feunc"]
+[ext_resource type="ArrayMesh" uid="uid://ct3u10u0sdjit" path="res://MOdels/road_roundaboutBarrier.obj" id="146_d0w6c"]
+[ext_resource type="ArrayMesh" uid="uid://b34qp1jlmi6s4" path="res://MOdels/road_side.obj" id="147_72s1o"]
+[ext_resource type="ArrayMesh" uid="uid://cepq2llcho3va" path="res://MOdels/road_sideBarrier.obj" id="148_3gpbm"]
+[ext_resource type="ArrayMesh" uid="uid://cgoltkfapyhk1" path="res://MOdels/road_sideEntry.obj" id="149_hs755"]
+[ext_resource type="ArrayMesh" uid="uid://0ofw5ovu3l63" path="res://MOdels/road_sideEntryBarrier.obj" id="150_qe0d6"]
+[ext_resource type="ArrayMesh" uid="uid://op1dm34i30dk" path="res://MOdels/road_sideExit.obj" id="151_pigvm"]
+[ext_resource type="ArrayMesh" uid="uid://cdkotjnn3xamn" path="res://MOdels/road_sideExitBarrier.obj" id="152_eyypr"]
+[ext_resource type="ArrayMesh" uid="uid://dbegfj6w8l5x4" path="res://MOdels/road_slant.obj" id="153_x04bx"]
+[ext_resource type="ArrayMesh" uid="uid://do3xoah1g5fet" path="res://MOdels/road_slantBarrier.obj" id="154_72fic"]
+[ext_resource type="ArrayMesh" uid="uid://dvp7u8ditvqbk" path="res://MOdels/road_slantCurve.obj" id="155_2kvbt"]
+[ext_resource type="ArrayMesh" uid="uid://bve2gy6wgyila" path="res://MOdels/road_slantCurveBarrier.obj" id="156_82ihm"]
+[ext_resource type="ArrayMesh" uid="uid://b2u6sfky5g20b" path="res://MOdels/road_slantFlat.obj" id="157_bsmkr"]
+[ext_resource type="ArrayMesh" uid="uid://cubgg1vdtsf16" path="res://MOdels/road_slantFlatCurve.obj" id="158_wm8be"]
+[ext_resource type="ArrayMesh" uid="uid://chv34xdtu301b" path="res://MOdels/road_slantFlatHigh.obj" id="159_yeiok"]
+[ext_resource type="ArrayMesh" uid="uid://bvkh6gb6ix4mg" path="res://MOdels/road_slantHigh.obj" id="160_meyv1"]
+[ext_resource type="ArrayMesh" uid="uid://wa243dart6wa" path="res://MOdels/road_split.obj" id="161_6nq01"]
+[ext_resource type="ArrayMesh" uid="uid://0ms4pxhc3ctc" path="res://MOdels/road_splitBarrier.obj" id="162_7yhoj"]
+[ext_resource type="ArrayMesh" uid="uid://dasn6u54otjtr" path="res://MOdels/road_square.obj" id="163_q12gm"]
+[ext_resource type="ArrayMesh" uid="uid://bqxvfm3uglirx" path="res://MOdels/road_squareBarrier.obj" id="164_p1mvr"]
+[ext_resource type="ArrayMesh" uid="uid://ws1nhladaxrx" path="res://MOdels/road_straight.obj" id="165_80ju7"]
+[ext_resource type="ArrayMesh" uid="uid://7xfa20v5q7md" path="res://MOdels/road_straightBarrier.obj" id="166_c8h0w"]
+[ext_resource type="ArrayMesh" uid="uid://ceqf82g6nply2" path="res://MOdels/road_straightBarrierEnd.obj" id="167_82s1w"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_rvxid"]
+points = PackedVector3Array(2, 4, 0.799922, 2, 3.59984, 2, 2, 4, -1.20008, 1.29992, 4, 2, 2, 2.59984, 2, 2, 3.09984, -2, 0.699687, 3.89977, -2, -0.000391483, 4, -2, -0.500391, 4, 2, 2, 2.49961, 1.69969, -0.100235, 2.49961, 2, 0.0998435, 0, 0.299922, 2, 2.49961, -2, -1.90016, 4, -2, -1.80031, 4, 1.89977, -2, 3.49961, 2, -0.600235, 2.49961, 2, -0.100235, 0, 0.299922, 0.0998435, 0, -0.400157, 1.19969, 2.09984, -2, -2, 3.89977, -2, -2, 4, -0.600235, -2, 4, 1.79992, -2, 2.79992, 2, -0.600235, 0, 0.199687, -0.300313, 0, -0.500391, 0.299922, 2.09984, -2, -2, 3.59984, -2, -0.700078, 0, -0.000391483, -2, 2.79992, -0.100235, -0.400157, 0, -0.500391, -1.80031, 2.79992, -2, -2, 2.99961, -1.50039, -1.90016, 2.79992, -1.90016, -0.700078, 0, -0.200078, -0.600235, 0, -0.400157)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_c81p1"]
+points = PackedVector3Array(0.8, 1.6, 0.8, 0.8, 1.6, -0.8, -0.8, 1.6, 0.8, 0.8, 0, 0.8, 0.8, 0, -0.8, -0.8, 1.6, -0.8, -0.8, 0, 0.8, -0.8, 0, -0.8)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0mh7b"]
+points = PackedVector3Array(0.8, 1.6, 0.8, 0.8, 1.6, -0.8, -0.8, 1.6, 0.8, 0.8, 0, 0.8, 0.8, 0, -0.8, -0.8, 1.6, -0.8, -0.8, 0, 0.8, -0.8, 0, -0.8)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_e0074"]
+points = PackedVector3Array(0.8, 1.6, 0.8, 0.8, 0, 0.8, 0.8, 1.6, -0.8, -0.8, 1.6, 0.8, 0.8, 0, -0.8, -0.8, 0, 0.8, -0.8, 1.6, -0.8, -0.8, 0, -0.8)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_p078a"]
+points = PackedVector3Array(-0.47424, 0.635917, -9.28342e-05, -0.458178, 0.635917, -0.122831, -0.437846, 0.521919, -9.28342e-05, -0.458178, 0.635917, 0.122645, -0.428561, 1.09191, -9.28342e-05, -0.410736, 0.635917, -0.237213, -0.379169, 0.521919, -0.218923, -0.422898, 0.521919, -0.113361, -0.413892, 1.09191, -0.110947, -0.371092, 1.09191, -0.214281, -0.106119, -8.01483e-32, -0.106119, -0.106119, -8.01483e-32, 0.106026, -0.422898, 0.521919, 0.113268, -0.379169, 0.521919, 0.21883, -0.410736, 0.635917, 0.237027, -0.371092, 1.09191, 0.214188, -0.413892, 1.09191, 0.110854, -0.0580266, 1.941, -9.28342e-05, -0.335347, 0.635917, -0.335347, -0.30963, 0.521919, -0.30963, -0.303038, 1.09191, -0.303038, -0.0559841, 1.941, -0.0150405, -0.0502279, 1.941, -0.0290597, 0.106026, -8.01483e-32, -0.106119, -0.218923, 0.521919, -0.379169, -0.113361, 0.521919, -0.422898, -9.28342e-05, 0.521919, -0.437846, 0.106026, -8.01483e-32, 0.106026, -9.28342e-05, 0.521919, 0.437753, -0.113361, 0.521919, 0.422805, -0.218923, 0.521919, 0.379076, -0.30963, 0.521919, 0.309537, -0.335347, 0.635917, 0.335255, -0.303038, 1.09191, 0.302945, -0.0410364, 1.941, 0.0409436, -0.0502279, 1.941, 0.028874, -0.0559841, 1.941, 0.0149477, -0.237213, 0.635917, -0.410736, -0.0410364, 1.941, -0.0410364, -0.0290597, 1.941, -0.0502279, -0.214281, 1.09191, -0.371092, 0.113268, 0.521919, -0.422898, 0.21883, 0.521919, -0.379169, 0.309537, 0.521919, -0.30963, 0.379076, 0.521919, -0.218923, 0.422805, 0.521919, -0.113361, 0.437753, 0.521919, -9.28342e-05, -0.122831, 0.635917, -0.458178, -9.28342e-05, 0.635917, -0.47424, 0.122645, 0.635917, -0.458178, 0.422805, 0.521919, 0.113268, 0.379076, 0.521919, 0.21883, 0.309537, 0.521919, 0.309537, 0.21883, 0.521919, 0.379076, 0.113268, 0.521919, 0.422805, 0.122645, 0.635917, 0.457993, -9.28342e-05, 0.635917, 0.474147, -0.122831, 0.635917, 0.457993, -0.237213, 0.635917, 0.410643, -0.214281, 1.09191, 0.370999, -0.0290597, 1.941, 0.050135, -0.0150405, 1.941, -0.0559841, -0.110947, 1.09191, -0.413892, 0.237027, 0.635917, -0.410736, 0.335255, 0.635917, -0.335347, 0.410643, 0.635917, -0.237213, 0.457993, 0.635917, -0.122831, 0.474147, 0.635917, -9.28342e-05, 0.457993, 0.635917, 0.122645, -9.28342e-05, 1.09191, -0.428561, 0.110854, 1.09191, -0.413892, 0.214188, 1.09191, -0.371092, 0.410643, 0.635917, 0.237027, 0.335255, 0.635917, 0.335255, 0.237027, 0.635917, 0.410643, 0.110854, 1.09191, 0.413799, -9.28342e-05, 1.09191, 0.428469, -0.110947, 1.09191, 0.413799, -0.0150405, 1.941, 0.0558913, -9.28342e-05, 1.941, -0.0580266, 0.302945, 1.09191, -0.303038, 0.370999, 1.09191, -0.214281, 0.413799, 1.09191, -0.110947, 0.428469, 1.09191, -9.28342e-05, 0.413799, 1.09191, 0.110854, 0.0149477, 1.941, -0.0559841, 0.028874, 1.941, -0.0502279, 0.0409436, 1.941, -0.0410364, 0.370999, 1.09191, 0.214188, 0.302945, 1.09191, 0.302945, 0.214188, 1.09191, 0.370999, 0.028874, 1.941, 0.050135, 0.0149477, 1.941, 0.0558913, -9.28342e-05, 1.941, 0.0578409, 0.050135, 1.941, -0.0290597, 0.0558913, 1.941, -0.0150405, 0.0578409, 1.941, -9.28342e-05, 0.0558913, 1.941, 0.0149477, 0.050135, 1.941, 0.028874, 0.0409436, 1.941, 0.0409436)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_qmr78"]
+points = PackedVector3Array(-0.35568, 0.384821, -6.96182e-05, -0.343634, 0.384821, -0.0921231, -0.328384, 0.299261, -6.96182e-05, -0.343634, 0.384821, 0.0919838, -0.321421, 0.726795, -6.96182e-05, -0.308052, 0.384821, -0.17791, -0.284377, 0.299261, -0.164192, -0.317174, 0.299261, -0.0850206, -0.310419, 0.726795, -0.0832102, -0.278319, 0.726795, -0.160711, -0.138985, -8.01483e-32, -0.138985, -0.138985, -8.01483e-32, 0.138916, -0.317174, 0.299261, 0.084951, -0.284377, 0.299261, 0.164123, -0.308052, 0.384821, 0.17777, -0.278319, 0.726795, 0.160641, -0.310419, 0.726795, 0.0831406, -0.04352, 1.36363, -6.96182e-05, -0.251511, 0.384821, -0.251511, -0.232223, 0.299261, -0.232223, -0.227279, 0.726795, -0.227279, -0.0419881, 1.36363, -0.0112804, -0.0376709, 1.36363, -0.0217948, 0.138916, -8.01483e-32, -0.138985, -0.164192, 0.299261, -0.284377, -0.0850206, 0.299261, -0.317174, -6.96182e-05, 0.299261, -0.328384, 0.138916, -8.01483e-32, 0.138916, -6.96182e-05, 0.299261, 0.328315, -0.0850206, 0.299261, 0.317104, -0.164192, 0.299261, 0.284307, -0.232223, 0.299261, 0.232153, -0.251511, 0.384821, 0.251441, -0.227279, 0.726795, 0.227209, -0.0307773, 1.36363, 0.0307077, -0.0376709, 1.36363, 0.0216555, -0.0419881, 1.36363, 0.0112107, -0.17791, 0.384821, -0.308052, -0.0307773, 1.36363, -0.0307773, -0.0217948, 1.36363, -0.0376709, -0.160711, 0.726795, -0.278319, 0.084951, 0.299261, -0.317174, 0.164123, 0.299261, -0.284377, 0.232153, 0.299261, -0.232223, 0.284307, 0.299261, -0.164192, 0.317104, 0.299261, -0.0850206, 0.328315, 0.299261, -6.96182e-05, -0.0921231, 0.384821, -0.343634, -6.96182e-05, 0.384821, -0.35568, 0.0919838, 0.384821, -0.343634, 0.317104, 0.299261, 0.084951, 0.284307, 0.299261, 0.164123, 0.232153, 0.299261, 0.232153, 0.164123, 0.299261, 0.284307, 0.084951, 0.299261, 0.317104, -6.96182e-05, 0.384821, 0.35568, -0.0921231, 0.384821, 0.343494, -0.17791, 0.384821, 0.307982, -0.160711, 0.726795, 0.278249, -0.0217948, 1.36363, 0.0376013, -0.0112804, 1.36363, -0.0419881, -0.0832102, 0.726795, -0.310419, 0.17777, 0.384821, -0.308052, 0.251441, 0.384821, -0.251511, 0.307982, 0.384821, -0.17791, 0.343494, 0.384821, -0.0921231, 0.35568, 0.384821, -6.96182e-05, -6.96182e-05, 0.726795, -0.321421, 0.0831406, 0.726795, -0.310419, 0.160641, 0.726795, -0.278319, 0.343494, 0.384821, 0.0919838, 0.307982, 0.384821, 0.17777, 0.251441, 0.384821, 0.251441, 0.17777, 0.384821, 0.307982, 0.0919838, 0.384821, 0.343494, 0.0831406, 0.726795, 0.31035, -6.96182e-05, 0.726795, 0.321351, -0.0832102, 0.726795, 0.31035, -0.0112804, 1.36363, 0.0419184, -6.96182e-05, 1.36363, -0.04352, 0.227209, 0.726795, -0.227279, 0.278249, 0.726795, -0.160711, 0.31035, 0.726795, -0.0832102, 0.321351, 0.726795, -6.96182e-05, 0.31035, 0.726795, 0.0831406, 0.0112107, 1.36363, -0.0419881, 0.0216555, 1.36363, -0.0376709, 0.0307077, 1.36363, -0.0307773, 0.278249, 0.726795, 0.160641, 0.227209, 0.726795, 0.227209, 0.160641, 0.726795, 0.278249, 0.0216555, 1.36363, 0.0376013, 0.0112107, 1.36363, 0.0419184, -6.96182e-05, 1.36363, 0.0433807, 0.0376013, 1.36363, -0.0217948, 0.0419184, 1.36363, -0.0112804, 0.0433807, 1.36363, -6.96182e-05, 0.0419184, 1.36363, 0.0112107, 0.0376013, 1.36363, 0.0216555, 0.0307077, 1.36363, 0.0307077)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dj8ei"]
+points = PackedVector3Array(0.326549, 0, 0.155844, 0.294137, 0.133751, 0.155844, 0.192938, 0.267502, 0.275, 0.225286, 0, 0.331077, 0.315426, 0, -0.21621, 0.251689, 0.4, -0.179387, 0.251689, 0.4, -0.064899, 0.227332, 0.267502, 0.215422, 0.0921856, 0.267502, 0.275, 0.0391245, 0.133751, 0.303071, 0.215441, 0.4, -0.00201473, 0.116223, 0.4, 0.0552294, 0.0228866, 0, 0.331077, 0.116223, 0, -0.331152, 0.116223, 0.199961, -0.294394, 0.183988, 0.4, -0.218479, -0.107465, 0, 0.316685, 0.036887, 0.267502, 0.243104, -0.0191787, 0.4, -0.0230193, -0.0829159, 0, -0.21621, 0.0485221, 0.4, -0.218479, -0.0191787, 0.4, -0.179387, -0.326549, 0, 0.190139, -0.256483, 0.122044, 0.149685, -0.326549, 0, -0.0628244, -0.291516, 0.0610023, -0.0425977, -0.256483, 0.122044, 0.0237224)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dd1w4"]
+points = PackedVector3Array(0.44998, 0.4, 0.449996, 0.5, 0.35, 0.47, 0.44998, 0.4, 0.35, -0.450078, 0.4, 0.449996, 0.5, 0.1, 0.47, 0.5, 0.35, 0.449996, -0.5, 0.35, 0.47, 0.44998, 0, 0.35, -0.450078, 0.4, 0.35, 0.44998, 0, 0.449996, 0.5, 0.1, 0.449996, -0.5, 0.1, 0.47, -0.5, 0.35, 0.449996, -0.450078, 0, 0.35, -0.450078, 0, 0.449996, -0.5, 0.1, 0.449996)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_amf68"]
+points = PackedVector3Array(0.449963, 0.399998, 0.449996, 0.499957, 0.349959, 0.47, 0.449963, 0.399998, 0.35, -0.450035, 0.399998, 0.449996, 0.511804, 0.250664, 0.47, 0.499957, 0.349959, 0.449996, -0.50003, 0.349959, 0.47, 0.511804, 0.250664, 0.449996, 0.512707, 0.100783, 0.449996, 0.449963, -4.51195e-17, 0.35, -0.450035, 0.399998, 0.35, 0.512707, 0.100783, 0.47, -0.50003, 0.349959, 0.449996, -0.51288, 0.250821, 0.47, 0.449963, -4.51195e-17, 0.449996, -0.450035, -4.51195e-17, 0.35, -0.51288, 0.250821, 0.449996, 0.0414752, 0.0404461, 0.47, -0.506354, 0.100195, 0.47, -0.450035, -4.51195e-17, 0.449996, -0.506354, 0.100195, 0.449996)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_a0qsm"]
+points = PackedVector3Array(-0.47, 0.1, -0.5, -0.47, 0.35, -0.5, -0.450061, 0.1, -0.5, -0.450061, 0, -0.450057, -0.450061, 0, -0.350075, -0.461739, 0.1, -0.373433, -0.461739, 0.35, -0.373433, -0.450061, 0.4, -0.350075, -0.450061, 0.4, -0.450057, -0.450061, 0.35, -0.5, -0.350079, 0, -0.450057, -0.185912, 0.1, 0.185817, -0.269562, 0.1, 0.0904884, -0.34011, 0.1, -0.0150949, -0.396225, 0.1, -0.128844, -0.436958, 0.1, -0.24905, 0.34998, 0, 0.449966, -0.436958, 0.35, -0.24905, -0.396225, 0.35, -0.128844, -0.34011, 0.35, -0.0150949, -0.269562, 0.35, 0.0904884, -0.185912, 0.35, 0.185817, 0.34998, 0.4, 0.449966, -0.350079, 0.4, -0.450057, 0.449962, 0, 0.349984, -0.0905834, 0.1, 0.269468, 0.449962, 0, 0.449966, 0.5, 0.1, 0.47, 0.373338, 0.1, 0.461644, 0.24886, 0.1, 0.436863, 0.128749, 0.1, 0.39613, 0.0149051, 0.1, 0.340015, -0.0905834, 0.35, 0.269468, 0.0149051, 0.35, 0.340015, 0.128749, 0.35, 0.39613, 0.24886, 0.35, 0.436863, 0.373338, 0.35, 0.461644, 0.5, 0.35, 0.47, 0.449962, 0.4, 0.449966, 0.449962, 0.4, 0.349984, 0.5, 0.1, 0.449966, 0.5, 0.35, 0.449966)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_l3dnf"]
+points = PackedVector3Array(-0.0902602, 0.13404, -0.217887, -0.0746054, 0, -0.180094, -0.217887, 0.13404, -0.0902602, -0.0902602, 0.266081, -0.217887, 0.0902176, 0.13404, -0.217887, -0.180094, 0, -0.0746054, 0.0745628, 0, -0.180094, -0.217887, 0.13404, 0.0902176, -0.217887, 0.266081, -0.0902602, -0.0738803, 0.40016, -0.178302, 0.0902176, 0.266081, -0.217887, 0.217844, 0.13404, -0.0902602, -0.180094, 0, 0.0745628, 0.180051, 0, -0.0746054, -0.217887, 0.266081, 0.0902176, -0.0902602, 0.13404, 0.217844, -0.178302, 0.40016, -0.0738803, 0.0738376, 0.40016, -0.178302, 0.217844, 0.266081, -0.0902602, 0.217844, 0.13404, 0.0902176, -0.0746054, 0, 0.180051, 0.180051, 0, 0.0745628, -0.0902602, 0.266081, 0.217844, -0.178302, 0.40016, 0.0738376, 0.0902176, 0.13404, 0.217844, 0.17826, 0.40016, -0.0738803, 0.217844, 0.266081, 0.0902176, 0.0745628, 0, 0.180051, -0.0738803, 0.40016, 0.17826, 0.0902176, 0.266081, 0.217844, 0.17826, 0.40016, 0.0738376, 0.0738376, 0.40016, 0.17826)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0gclg"]
+points = PackedVector3Array(-0.416772, 0.769577, -0.633028, -0.500052, 0, -0.500052, -0.500052, 0.841425, -0.591636, 0.416648, 0.769577, -0.633028, -0.500052, 0, 0.499929, -0.633028, 0.769577, -0.416772, -0.591636, 0.841425, -0.500052, 0.499929, 0, -0.500052, -0.500052, 1, -0.500052, 0.499929, 0.841425, -0.591636, -0.416772, 0.769577, 0.632904, -0.500052, 0.841425, 0.591512, -0.591636, 0.841425, 0.499929, -0.633028, 0.769577, 0.416648, 0.499929, 0, 0.499929, 0.591512, 0.841425, -0.500052, 0.632904, 0.769577, -0.416772, -0.500052, 1, 0.499929, 0.499929, 1, -0.500052, 0.416648, 0.769577, 0.632904, 0.499929, 0.841425, 0.591512, 0.632904, 0.769577, 0.416648, 0.591512, 0.841425, 0.499929, 0.499929, 1, 0.499929)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_6ltk3"]
+points = PackedVector3Array(-0.22785, 0.333007, 0.0149982, -0.0350161, 0, -0.035, -0.22785, 0.333007, 0.0648302, -0.22785, 0.546907, 0.0149982, 0.0349715, 0, -0.035, -0.0350161, 0, 0.0349935, -0.0255595, 0.6, -0.0255594, 0.0604418, 0.29119, 0.0648302, -0.22785, 0.546907, 0.0648302, 0.227805, 0.439957, 0.0316121, 0.0349715, 0, 0.0349935, 0.0255149, 0.6, -0.0255594, -0.0255595, 0.6, 0.0255431, 0.227805, 0.439957, 0.048226, 0.0604418, 0.588782, 0.0648302, 0.0604418, 0.588782, 0.0149982, 0.0255149, 0.6, 0.0255431)
+
+[node name="tree" type="StaticBody3D"]
+
+[node name="Untitled" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0.234263, -0.132271, 1.78758)
+mesh = ExtResource("1_1jg01")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Untitled"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Untitled/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_rvxid")
+
+[node name="Ziemia-0-ziemia" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.52514, 0, -0.974592)
+mesh = ExtResource("2_utb3q")
+
+[node name="Ziemia" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.87129, 0, -5.57458)
+mesh = ExtResource("3_n30pk")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Ziemia"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.87129, 0, 5.57458)
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Ziemia/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.87129, 0, -5.57458)
+shape = SubResource("ConvexPolygonShape3D_c81p1")
+
+[node name="Asfalt" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.14149, 0, -1.52826)
+mesh = ExtResource("4_xatvg")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Asfalt"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Asfalt/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_0mh7b")
+
+[node name="ObokDrogi" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.68166, 0, 0.645963)
+mesh = ExtResource("5_p16ri")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ObokDrogi"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="ObokDrogi/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_e0074")
+
+[node name="TreePine" type="MeshInstance3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -4.19996, -0.0537224, 2.95347)
+mesh = ExtResource("6_ekkju")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TreePine"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="TreePine/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_p078a")
+
+[node name="TreePineSmall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.31748, 0, -2.54564)
+mesh = ExtResource("7_ufl47")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="TreePineSmall"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TreePineSmall/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_qmr78")
+
+[node name="TreePineSmallSnow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.49378, -9.53674e-07, -6.33061)
+mesh = ExtResource("8_0uf87")
+
+[node name="TreePineSnow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.41864, 0, -6.46198)
+mesh = ExtResource("9_yobdc")
+
+[node name="TreeSnow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.54728, 0, 1.22677)
+mesh = ExtResource("10_5f44f")
+
+[node name="SpikeBlock" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.57632, 9.53674e-07, -10.1681)
+mesh = ExtResource("11_ushcb")
+
+[node name="SpikeBlockWide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.57632, 9.53674e-07, -12.4419)
+mesh = ExtResource("12_cbv7x")
+
+[node name="Spikes" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.57632, -0.0117096, -15.749)
+mesh = ExtResource("13_w48rd")
+
+[node name="SpikesHidden" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.57632, 9.53674e-07, -15.749)
+mesh = ExtResource("14_fl41i")
+
+[node name="SpikesLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.57632, 9.53674e-07, -15.749)
+mesh = ExtResource("15_8fg36")
+
+[node name="Stones" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.57632, 9.53674e-07, -15.749)
+mesh = ExtResource("16_2vape")
+
+[node name="Plant" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.41253, 0, -9.6155)
+mesh = ExtResource("17_jhfi6")
+
+[node name="Platform" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.24056, 0, -8.47272)
+mesh = ExtResource("18_4pg8p")
+
+[node name="Poles" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.36729, 0.18709, -10.2686)
+mesh = ExtResource("19_y13cp")
+
+[node name="Rocks" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.99987, 0, -10.8398)
+mesh = ExtResource("20_yg6yg")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Rocks"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.99987, 0, -10.8398)
+shape = SubResource("ConvexPolygonShape3D_dj8ei")
+
+[node name="Saw" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.16052, 0, -10.8398)
+mesh = ExtResource("21_s2p0u")
+
+[node name="Sign" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.41253, 0, -10.8398)
+mesh = ExtResource("22_fxnhe")
+
+[node name="Jewel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.04815, 0, -15.1187)
+mesh = ExtResource("23_a4dp3")
+
+[node name="Key" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.04815, 0, -15.9697)
+mesh = ExtResource("24_4povr")
+
+[node name="Ladder" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.44604, 0, -16.3402)
+mesh = ExtResource("25_rlw1o")
+
+[node name="LadderBroken" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.04815, 0, -16.3402)
+mesh = ExtResource("26_7pi61")
+
+[node name="LadderLong" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.46766, 0, -16.3402)
+mesh = ExtResource("27_2sify")
+
+[node name="Lever" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.15796, 0, -16.3402)
+mesh = ExtResource("28_3fydo")
+
+[node name="Lock" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.91291, 0, -16.3402)
+mesh = ExtResource("29_e5big")
+
+[node name="Chest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -13.9731)
+mesh = ExtResource("30_aw3cg")
+
+[node name="CoinBronze" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("31_4skx5")
+
+[node name="CoinGold" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("32_gwojk")
+
+[node name="CoinSilver" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("33_imwkt")
+
+[node name="Crate" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("34_3l5yt")
+
+[node name="CrateItem" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("35_maasp")
+
+[node name="CrateItemStrong" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("36_nqgx7")
+
+[node name="CrateStrong" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("37_3en28")
+
+[node name="DoorClosed" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("38_lfg3v")
+
+[node name="DoorLargeClosed" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.81438, 0, -12.6498)
+mesh = ExtResource("39_g3jsc")
+
+[node name="DoorLargeOpen" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("40_dns1q")
+
+[node name="DoorOpen" type="MeshInstance3D" parent="."]
+transform = Transform3D(8, 0, 0, 0, 8, 0, 0, 0, 8, 0.462225, 0, -12.6498)
+mesh = ExtResource("41_t164o")
+
+[node name="Fence" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -10.712, 0, -12.6498)
+mesh = ExtResource("42_j8d2b")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Fence"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Fence/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_dd1w4")
+
+[node name="FenceBroken" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -12.9904, 0, -12.6498)
+mesh = ExtResource("43_ifkso")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="FenceBroken"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="FenceBroken/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_amf68")
+
+[node name="FenceCorner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.9839, 0, -12.6498)
+mesh = ExtResource("44_jnjrr")
+
+[node name="FenceCornerCurved" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -13.1996, -0.199741, -13.5823)
+mesh = ExtResource("45_dlcg8")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="FenceCornerCurved"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="FenceCornerCurved/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_a0qsm")
+
+[node name="FenceLow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("46_wnqmu")
+
+[node name="FenceLowBroken" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("47_4hrpb")
+
+[node name="FenceLowCorner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("48_lv8k5")
+
+[node name="FenceLowCornerCurved" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("49_ccpqt")
+
+[node name="Flag" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("50_o46we")
+
+[node name="Flowers" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0369959, 0, -12.6498)
+mesh = ExtResource("51_tovbt")
+
+[node name="FlowersLow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.99193, 0, -12.6498)
+mesh = ExtResource("52_dm3yt")
+
+[node name="Heart" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("53_l6tbp")
+
+[node name="Hedge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.880737, 0, -12.6498)
+mesh = ExtResource("54_opge8")
+
+[node name="HedgeCorner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.22456, 0, -12.6498)
+mesh = ExtResource("55_vlsbs")
+
+[node name="Barrel" type="MeshInstance3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -15.4416, 0, -8.71761)
+mesh = ExtResource("56_347gs")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Barrel"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Barrel/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_l3dnf")
+
+[node name="Block" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.29173, 0, -0.925975)
+mesh = ExtResource("57_mfak4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Block"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Block/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_0gclg")
+
+[node name="BlockCliff" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, 3.58677)
+mesh = ExtResource("58_ehpc4")
+
+[node name="BlockCliffCorner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, 5.27979)
+mesh = ExtResource("59_bea3u")
+
+[node name="BlockCornerLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, 6.5239)
+mesh = ExtResource("60_0co11")
+
+[node name="BlockCornerSmall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2309, 0, 1.77335)
+mesh = ExtResource("61_je6gb")
+
+[node name="BlockCurve" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, 1.64377)
+mesh = ExtResource("62_0pur5")
+
+[node name="BlockCurveHalf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.0943, 0, -0.91685)
+mesh = ExtResource("63_bu8se")
+
+[node name="BlockCurveLow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.0174, 0, -0.91685)
+mesh = ExtResource("64_ieohd")
+
+[node name="BlockDirt" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.3674, 0, -0.91685)
+mesh = ExtResource("65_ss20a")
+
+[node name="BlockDirtHalf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("66_8h1fx")
+
+[node name="BlockDirtRamp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("67_gyext")
+
+[node name="BlockDirtRampHalf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("68_xrhoa")
+
+[node name="BlockEnd" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("69_y3ph5")
+
+[node name="BlockHalf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("70_o6k3g")
+
+[node name="BlockHexagon" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("71_yl34u")
+
+[node name="BlockHexagonLow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("72_eqctn")
+
+[node name="BlockLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("73_kiwe3")
+
+[node name="BlockLevel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("74_h5srh")
+
+[node name="BlockLong" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("75_gfn7s")
+
+[node name="BlockMoving" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("76_y4yk2")
+
+[node name="BlockMovingBlue" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("77_066ku")
+
+[node name="BlockMovingLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("78_bbrrp")
+
+[node name="BlockQuarter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("79_oley0")
+
+[node name="BlockRounded" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("80_neagu")
+
+[node name="BlockRoundedLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("81_vnccb")
+
+[node name="BlockRoundedLong" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("82_lt4q2")
+
+[node name="BlockRoundedLow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("83_4ng8b")
+
+[node name="BlockRoundedLowLong" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("84_r82na")
+
+[node name="BlockSlope" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("85_hxeyh")
+
+[node name="BlockSlopeHalf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("86_8hxeg")
+
+[node name="BlockSnow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("87_qqix5")
+
+[node name="BlockSnowCliff" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("88_fqa3q")
+
+[node name="BlockSnowCliffCorner" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("89_oe1d7")
+
+[node name="BlockSnowCornerLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("90_6n7kv")
+
+[node name="BlockSnowCornerSmall" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("91_57x0w")
+
+[node name="BlockSnowCurve" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("92_tkwis")
+
+[node name="BlockSnowCurveHalf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("93_tyf2a")
+
+[node name="BlockSnowCurveLow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("94_yhtvd")
+
+[node name="BlockSnowEnd" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("95_elssn")
+
+[node name="BlockSnowHalf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("96_vnng8")
+
+[node name="BlockSnowHexagon" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("97_yxr31")
+
+[node name="BlockSnowHexagonLow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("98_b8ubt")
+
+[node name="BlockSnowLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.94191, -0.636007, 12.4033)
+mesh = ExtResource("99_aycg7")
+
+[node name="BlockSnowLevel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("100_yqtkw")
+
+[node name="BlockSnowLong" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("101_fmjh6")
+
+[node name="BlockSnowQuarter" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("102_ifsym")
+
+[node name="BlockSnowRounded" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("103_kghix")
+
+[node name="BlockSnowRoundedLarge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("104_pm05g")
+
+[node name="BlockSnowRoundedLong" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("105_kexgk")
+
+[node name="BlockSnowRoundedLow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("106_t826y")
+
+[node name="BlockSnowRoundedLowLong" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("107_vtw56")
+
+[node name="BlockSnowSlope" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("108_t4ptw")
+
+[node name="BlockSnowSlopeHalf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("109_ad772")
+
+[node name="Bomb" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("110_8hv5s")
+
+[node name="Bridge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("111_j7bfy")
+
+[node name="BridgeHalf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("112_jxi7e")
+
+[node name="BridgeRamp" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("113_1qwq8")
+
+[node name="ButtonRound" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("114_cghf2")
+
+[node name="ButtonSquare" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.1033, 0, -0.91685)
+mesh = ExtResource("115_fjik4")
+
+[node name="Arrow" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.11158, -9.53674e-07, -18.3322)
+mesh = ExtResource("116_smxm7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Arrow"]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Arrow/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_6ltk3")
+
+[node name="Arrows" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.20567, -9.53674e-07, -18.2763)
+mesh = ExtResource("117_an7f5")
+
+[node name="BlockCliffCorner2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.7072, -4.76837e-07, -4.45362)
+mesh = ExtResource("59_bea3u")
+
+[node name="BlockCornerLarge2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.591, 0, -4.40888)
+mesh = ExtResource("60_0co11")
+
+[node name="BlockCornerSmall2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.7895, 4.76837e-07, -4.99723)
+mesh = ExtResource("61_je6gb")
+
+[node name="BlockCurve2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3941, 0, -2.89327)
+mesh = ExtResource("62_0pur5")
+
+[node name="BlockCurveHalf2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6262, -4.76837e-07, 5.9057)
+mesh = ExtResource("63_bu8se")
+
+[node name="BlockCurveLow2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.2012, 0, -3.42674)
+mesh = ExtResource("64_ieohd")
+
+[node name="BlockDirt2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3717, 0, 3.88788)
+mesh = ExtResource("65_ss20a")
+
+[node name="BlockDirtHalf2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.8609, -4.76837e-07, 3.7114)
+mesh = ExtResource("66_8h1fx")
+
+[node name="BlockEnd2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.4577, -4.76837e-07, -5.0651)
+mesh = ExtResource("69_y3ph5")
+
+[node name="BlockHexagon2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.9131, 0, -6.94204)
+mesh = ExtResource("71_yl34u")
+
+[node name="BlockHexagonLow2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.0872, 0, -7.10703)
+mesh = ExtResource("72_eqctn")
+
+[node name="BlockLarge2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.9241, 0, -8.11451)
+mesh = ExtResource("73_kiwe3")
+
+[node name="BlockRoundedLarge2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.04488, 0, -4.06765)
+mesh = ExtResource("81_vnccb")
+
+[node name="BlockRoundedLong2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6594, 0, 0.553082)
+mesh = ExtResource("82_lt4q2")
+
+[node name="BridgePillar" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7207, 0, -10.4482)
+mesh = ExtResource("118_3tqjh")
+
+[node name="RoadBendBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.7496, 0, -7.57498)
+mesh = ExtResource("119_subvq")
+
+[node name="RoadBendSidewalk" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.5793, 0, -2.84561)
+mesh = ExtResource("120_hw5lp")
+
+[node name="RoadBendSquare" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.5383, 0, 0.810859)
+mesh = ExtResource("121_amc0r")
+
+[node name="RoadBendSquareBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.6753, 0, 3.61838)
+mesh = ExtResource("122_nvwi5")
+
+[node name="RoadBridge" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.7303, 0, 5.22359)
+mesh = ExtResource("123_mtxah")
+
+[node name="RoadCrossing" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.8344, 0, 6.43914)
+mesh = ExtResource("124_m8ire")
+
+[node name="RoadCrossroad" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.5935, 0, 5.87127)
+mesh = ExtResource("125_4kcjn")
+
+[node name="RoadCrossroadBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.2318, 0, 4.78715)
+mesh = ExtResource("126_ngx8v")
+
+[node name="RoadCrossroadLine" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.7605, 0, 2.82478)
+mesh = ExtResource("127_ngosq")
+
+[node name="RoadCrossroadPath" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.807, 0, 4.65351)
+mesh = ExtResource("128_rlpav")
+
+[node name="RoadCurve" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.9488, 0, 9.45244)
+mesh = ExtResource("129_hximc")
+
+[node name="RoadCurveBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.0558, 0, 8.75823)
+mesh = ExtResource("130_4a3nb")
+
+[node name="RoadCurveIntersection" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.0781, 0, 10.8044)
+mesh = ExtResource("131_2atsy")
+
+[node name="RoadCurveIntersectionBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.3863, 0, 7.40945)
+mesh = ExtResource("132_x8xg0")
+
+[node name="RoadCurvePavement" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.1859, 0, 13.7534)
+mesh = ExtResource("133_f54py")
+
+[node name="RoadDrivewayDouble" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.3263, 0, 14.1882)
+mesh = ExtResource("134_xtr6t")
+
+[node name="RoadDrivewayDoubleBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8969, 0, 13.1139)
+mesh = ExtResource("135_768yn")
+
+[node name="RoadDrivewaySingle" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.9384, 0, 2.95511)
+mesh = ExtResource("136_m7yn3")
+
+[node name="RoadDrivewaySingleBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.7515, 0, 2.50969)
+mesh = ExtResource("137_hy4v8")
+
+[node name="RoadEndBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.759, 0, 0.690154)
+mesh = ExtResource("138_qhhu1")
+
+[node name="RoadEnd" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.6777, 0, -2.57409)
+mesh = ExtResource("139_vda57")
+
+[node name="RoadEndRoundBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.784, 0, 2.63486)
+mesh = ExtResource("140_vssvg")
+
+[node name="RoadIntersection" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.6436, 0, 6.01359)
+mesh = ExtResource("141_g8ow0")
+
+[node name="RoadIntersectionLine" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.5366, 0, 7.1191)
+mesh = ExtResource("142_3up50")
+
+[node name="RoadIntersectionBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.7807, 0, 4.57595)
+mesh = ExtResource("143_an1df")
+
+[node name="RoadIntersectionPath" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.015, 0, 10.1492)
+mesh = ExtResource("144_ns2cw")
+
+[node name="RoadRoundabout" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.9822, 0, 11.8721)
+mesh = ExtResource("145_feunc")
+
+[node name="RoadRoundaboutBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.7095, 0, 15.5228)
+mesh = ExtResource("146_d0w6c")
+
+[node name="RoadSide" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.972, 0, 2.40119)
+mesh = ExtResource("147_72s1o")
+
+[node name="RoadSideBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.8192, 0, -0.298222)
+mesh = ExtResource("148_3gpbm")
+
+[node name="RoadSideEntry" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.8694, 0, -2.06018)
+mesh = ExtResource("149_hs755")
+
+[node name="RoadSideEntryBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.1162, 0, 0.223338)
+mesh = ExtResource("150_qe0d6")
+
+[node name="RoadSideExit" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.3214, 0, -4.61192)
+mesh = ExtResource("151_pigvm")
+
+[node name="RoadSideExitBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.8653, 0, -3.08275)
+mesh = ExtResource("152_eyypr")
+
+[node name="RoadSlant" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.0321, 0, -0.110023)
+mesh = ExtResource("153_x04bx")
+
+[node name="RoadSlantBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.0149, 0, -0.106138)
+mesh = ExtResource("154_72fic")
+
+[node name="RoadSlantCurve" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.4812, 0, 3.64894)
+mesh = ExtResource("155_2kvbt")
+
+[node name="RoadSlantCurveBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.9849, 0, 6.85)
+mesh = ExtResource("156_82ihm")
+
+[node name="RoadSlantFlat" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.64, 0, 4.19419)
+mesh = ExtResource("157_bsmkr")
+
+[node name="RoadSlantFlatCurve" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.2517, 0, 7.88868)
+mesh = ExtResource("158_wm8be")
+
+[node name="RoadSlantFlatHigh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.5357, 0, 10.4254)
+mesh = ExtResource("159_yeiok")
+
+[node name="RoadSlantHigh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.3316, 0, 9.3341)
+mesh = ExtResource("160_meyv1")
+
+[node name="RoadSplit" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.0361, 0, 2.59615)
+mesh = ExtResource("161_6nq01")
+
+[node name="RoadSplitBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.4581, 0, -0.528125)
+mesh = ExtResource("162_7yhoj")
+
+[node name="RoadSquare" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.7619, 0, -2.29952)
+mesh = ExtResource("163_q12gm")
+
+[node name="RoadSquareBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.2592, 0, -3.11284)
+mesh = ExtResource("164_p1mvr")
+
+[node name="RoadStraight" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.2142, 0, -5.12585)
+mesh = ExtResource("165_80ju7")
+
+[node name="RoadStraightBarrier" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.2325, 0, -5.92635)
+mesh = ExtResource("166_c8h0w")
+
+[node name="RoadStraightBarrierEnd" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.1659, 0, -4.43045)
+mesh = ExtResource("167_82s1w")

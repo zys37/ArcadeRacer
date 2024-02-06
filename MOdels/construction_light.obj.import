@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c55y6af26tkl1"
+path="res://.godot/imported/construction_light.obj-2d33df5d98e94e812ef44e2b1b8b352b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/construction_light.obj-2d33df5d98e94e812ef44e2b1b8b352b.mesh"]
+
+source_file="res://MOdels/construction_light.obj"
+dest_files=["res://.godot/imported/construction_light.obj-2d33df5d98e94e812ef44e2b1b8b352b.mesh", "res://.godot/imported/construction_light.obj-2d33df5d98e94e812ef44e2b1b8b352b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

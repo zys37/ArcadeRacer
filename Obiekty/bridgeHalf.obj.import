@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d377owrvs3pfw"
+path="res://.godot/imported/bridgeHalf.obj-ecd0f93d7b965cf4855a9f8e4ed942bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bridgeHalf.obj-ecd0f93d7b965cf4855a9f8e4ed942bb.mesh"]
+
+source_file="res://bridgeHalf.obj"
+dest_files=["res://.godot/imported/bridgeHalf.obj-ecd0f93d7b965cf4855a9f8e4ed942bb.mesh", "res://.godot/imported/bridgeHalf.obj-ecd0f93d7b965cf4855a9f8e4ed942bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

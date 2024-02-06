@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://kcdfe78uhihc"
+path="res://.godot/imported/blockMovingLarge.obj-98868d7a7dbfe5481501b1a3cc01f2ae.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blockMovingLarge.obj-98868d7a7dbfe5481501b1a3cc01f2ae.mesh"]
+
+source_file="res://blockMovingLarge.obj"
+dest_files=["res://.godot/imported/blockMovingLarge.obj-98868d7a7dbfe5481501b1a3cc01f2ae.mesh", "res://.godot/imported/blockMovingLarge.obj-98868d7a7dbfe5481501b1a3cc01f2ae.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

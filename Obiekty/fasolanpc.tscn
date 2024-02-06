@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dhhio3lv22gwy"]
+
+[ext_resource type="Script" path="res://fasolanpc.gd" id="1_almhi"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f04sp"]
+albedo_color = Color(0.0627451, 0.2, 0.160784, 0.94902)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_324bw"]
+material = SubResource("StandardMaterial3D_f04sp")
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_bavpq"]
+
+[node name="Enemy" type="CharacterBody3D" groups=["enemies"]]
+script = ExtResource("1_almhi")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.662119, 0)
+mesh = SubResource("CapsuleMesh_324bw")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.662119, 0)
+shape = SubResource("CapsuleShape3D_bavpq")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
+
+[connection signal="target_reached" from="NavigationAgent3D" to="." method="_on_navigation_agent_3d_target_reached"]
