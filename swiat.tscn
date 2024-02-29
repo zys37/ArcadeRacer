@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://b6fqmfex41ioy"]
+[gd_scene load_steps=14 format=3 uid="uid://b6fqmfex41ioy"]
 
 [ext_resource type="PackedScene" uid="uid://beykuvdpu0eu1" path="res://MOdels/auto.tscn" id="1_lvxn1"]
 [ext_resource type="Script" path="res://swiat.gd" id="1_uxnrh"]
@@ -6,10 +6,11 @@
 [ext_resource type="AudioStream" uid="uid://bfun7h66vliou" path="res://muza/engine-loop-1-normalized.wav" id="3_8blt6"]
 [ext_resource type="PackedScene" uid="uid://qsbh2icec5lo" path="res://sky.tscn" id="3_52ssr"]
 [ext_resource type="PackedScene" uid="uid://bplo0xtuxs4w5" path="res://muza.tscn" id="4_ns31y"]
-[ext_resource type="PackedScene" uid="uid://dhhio3lv22gwy" path="res://fasolanpc.tscn" id="6_q5vl3"]
 [ext_resource type="MeshLibrary" uid="uid://cry5r8rnx4naa" path="res://droga.tres" id="7_yisd0"]
 [ext_resource type="ArrayMesh" uid="uid://bjiy8n17bc48r" path="res://MOdels/road_curve.obj" id="8_cfrdo"]
 [ext_resource type="PackedScene" uid="uid://dhkoyaec2ods0" path="res://kph.tscn" id="10_n4hkw"]
+[ext_resource type="PackedScene" uid="uid://dhhwjen44qq35" path="res://checkpoint.tscn" id="10_w8hvv"]
+[ext_resource type="PackedScene" uid="uid://cepg8voya46pl" path="res://laps.tscn" id="11_pr84m"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_j0tnp"]
 vertices = PackedVector3Array(-38.1963, 2.93658, -16.9875, -38.1963, 2.93658, 87.0125, 90.8037, 2.93658, 87.0125, 90.8037, 2.93658, -16.9875)
@@ -22,7 +23,7 @@ size = Vector3(130, 2, 105)
 [node name="Node3D" type="Node3D"]
 script = ExtResource("1_uxnrh")
 
-[node name="auto" parent="." instance=ExtResource("1_lvxn1")]
+[node name="auto" parent="." groups=["Player"] instance=ExtResource("1_lvxn1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.19804, -0.20916)
 
 [node name="AudioStreamPlayer3D" parent="auto" instance=ExtResource("4_ns31y")]
@@ -80,16 +81,9 @@ mesh = ExtResource("8_cfrdo")
 transform = Transform3D(-0.0584683, 0, -9.99983, 0, 10, 0, 9.99983, 0, -0.0584683, 70.025, 0.326157, 76.0473)
 mesh = ExtResource("8_cfrdo")
 
-[node name="Enemy" parent="." instance=ExtResource("6_q5vl3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.5888, 0.375006, 3.5253)
-
-[node name="Enemy2" parent="." instance=ExtResource("6_q5vl3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.6471, 0.375, 77.1277)
-
-[node name="Enemy3" parent="." instance=ExtResource("6_q5vl3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.5636, 0.375006, 1.66305)
-
-[node name="Enemy4" parent="." instance=ExtResource("6_q5vl3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.885, 0.375011, 78.241)
-
 [node name="CanvasLayer" parent="." instance=ExtResource("10_n4hkw")]
+
+[node name="checkpoint" parent="." instance=ExtResource("10_w8hvv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.77667, 4, 25.4358)
+
+[node name="laps" parent="." instance=ExtResource("11_pr84m")]

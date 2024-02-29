@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cepg8voya46pl"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 25.0
+offset_top = 24.0
+offset_right = 217.0
+offset_bottom = 93.0
